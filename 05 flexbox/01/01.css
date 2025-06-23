@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3em;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 1em;
+    overflow: hidden;
+    /* min-height: 80vh; */
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 2em;
+    flex-wrap: wrap;
+    align-content: start;
+    /* justify-content: space-around; */
+}
+
+.container .item:nth-child(1){
+    background: green;
+    /* height: 200px; */
+    flex-basis: 5em;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.container .item {
+    border: 1px solid green;
+    padding: 1em;
+    
+}

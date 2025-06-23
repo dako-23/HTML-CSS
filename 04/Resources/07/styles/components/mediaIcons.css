@@ -1,0 +1,22 @@
+.icons {
+    font-size: 2em;
+}
+
+.icons .icon {
+    display: inline-block;
+    background: #eee;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 3em;
+    color: black;
+    line-height: 2.9em;
+    text-align: center;
+    transition:
+        background-color 0.3s ease-in,
+        color 0.3s ease-in;
+}
+
+.icons .icon:hover {
+    background: #090;
+    color: white;
+}

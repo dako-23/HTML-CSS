@@ -1,0 +1,31 @@
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: antiquewhite;
+}
+
+p {
+    font-size: 24px;
+}
+
+.highlight {
+    background: aqua;
+}
+
+#main-title {
+    color: green;
+}
+
+#special-p {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    color: darkred;
+}

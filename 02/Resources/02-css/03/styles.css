@@ -1,0 +1,34 @@
+p.highlight {
+    color: rgb(91, 166, 212);
+}
+
+div#special {
+    background-color: orange;
+    box-shadow: 0.1em 0.1em 0.5em 0.1em rgb(0, 0, 0, 0.2);
+}
+
+.imp1 {
+    color: aquamarine;
+}
+
+.imp2 {
+    color: red;
+    font-style: italic;
+}
+
+details[open] summary {
+    font-size: 1.2em;
+    color: green;
+}
+
+a {
+    color: green;
+}
+
+a[href^="/"]{
+    color: pink;
+}
+
+a[href^="softuni"]{
+    color: orange;
+}

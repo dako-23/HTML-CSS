@@ -1,0 +1,20 @@
+header a {
+    text-decoration: none;
+}
+
+main.site-main > .service{
+    background-color: aqua;
+}
+
+.service + .service {
+    color: red;
+}
+
+.site-main h2 ~ section {
+    background: gray;
+}
+
+.service:nth-child(2){
+    font-size: 2em;
+    color: green;
+}

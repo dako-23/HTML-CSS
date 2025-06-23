@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-model {
+    max-width: 800px;
+    margin: 3em auto;
+}
+
+.box-model div {
+    border: 1px dashed black;
+    padding: 2em;
+    position: relative;
+}
+
+.box-model .content {
+    text-align: center;
+    background-color: aqua;
+}
+
+.box-model span {
+    position: absolute;
+    top: 0;
+    left: 1em;
+}
+
+.box-model .margin {
+    background-color: brown;
+}
+
+.box-model .border {
+    background-color: gray;
+}
+
+.box-model .padding {
+    background-color: green;
+}
+
+.box-model.pseudo-elements div::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1em;
+}
+
+.box-model.pseudo-elements .margin::before { content: 'margin';}
+.box-model.pseudo-elements .border::before { content: 'border';}
+.box-model.pseudo-elements .padding::before { content: 'padding';}
