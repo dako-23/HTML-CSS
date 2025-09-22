@@ -7,9 +7,6 @@
     align-items: center;
 }
 
-.section.site-header .site-title {
-    /* margin-right: auto; */
-}
 
 .section.site-header .site-title a {
     text-decoration: none;
